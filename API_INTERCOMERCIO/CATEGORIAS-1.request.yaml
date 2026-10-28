@@ -1,0 +1,5 @@
+$kind: http-request
+name: CATEGORIAS
+url: http://localhost:3000/api/categorias/9
+method: DELETE
+order: 2000

@@ -1,0 +1,32 @@
+$kind: http-request
+name: PRODUCTOS
+url: http://localhost:3000/api/productos
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"sku\": \"SKU-0002\",\r
+
+    \    \"nombre\": \"Guitarra electrica\",\r
+
+    \    \"id_categoria\": 5,\r
+
+    \    \"id_marca\": 6,\r
+
+    \    //\"id_vendedor\": 0,\r
+
+    \    \"descripcion\": \"gruitarra para tocar\",\r
+
+    \    \"precio_base\": 500\r
+
+    \    // \"peso_kg\": 0,\r
+
+    \    // \"largo_cm\": 0\r
+
+    \    // \"ancho_cm\": 0\r
+
+    \    // \"algo_cm\": 0\r
+
+    }"
+order: 10000

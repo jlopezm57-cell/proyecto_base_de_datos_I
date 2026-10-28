@@ -1,0 +1,5 @@
+$kind: http-request
+name: PRODUCTOS
+url: http://localhost:3000/api/productos/12
+method: DELETE
+order: 9000
